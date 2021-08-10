@@ -28,7 +28,6 @@ func bitTypeId(T: typedesc): uint64 =
     {.cast(noSideEffect).}:
         bitID
 
-
 func bitTypeIdUnion(Ts: tuple): uint64 =
     {.cast(noSideEffect).}:
         var bitId {.global.}: uint64
